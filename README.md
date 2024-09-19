@@ -5,6 +5,40 @@
 # 环境
 node v18.20.4
 centos 8
+Redis 7.2.4
+MySQL 5.7.40
+
+.env
+```
+# 端口
+PORT=9520
+
+# MySQL
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_USER=99ai
+DB_PASS=LBr28fiicZXJ35Ri
+DB_DATABASE=99ai
+DB_SYNC=true
+
+# Redis
+REDIS_PORT=6379
+REDIS_HOST=127.0.0.1
+REDIS_PASSWORD=
+REDIS_USER=
+REDIS_DB=0
+
+# 是否测试环境
+ISDEV=FALSE
+
+# 自定义微信URL
+weChatOpenUrl=https://open.weixin.qq.com
+weChatApiUrl=https://api.weixin.qq.com
+weChatMpUrl=https://mp.weixin.qq.com
+
+# 自定义后台路径
+ADMIN_SERVE_ROOT=/admin
+```
 
 ## 项目介绍
 
