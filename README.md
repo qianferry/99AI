@@ -8,6 +8,8 @@ centos 8
 Redis 7.2.4
 MySQL 5.7.40
 
+先运行一次，再导入数据库，不然 typeorm 报错
+
 .env
 ```
 # 端口
